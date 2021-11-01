@@ -1,0 +1,267 @@
+body{
+	background-color: #FAFAFA;
+}
+#first{
+	top: 5%;
+}
+iPhones{
+	width: 268px;
+	height: 200px;
+	background-color: #536872;
+	left: 600px;
+	top: -14%;
+	transform: matrix(2.5, 0, 1.5, 4, 0, 0) rotate(31deg); 
+	opacity: .9;
+	position: absolute;
+}
+
+#hop{
+	margin-left: 25px;
+	color: white;
+	margin-top: 80px;
+	font-size: 50px;
+}
+#hopest_one{
+	width: 1360px;
+	height: 600px;
+	margin-top: 190px;
+	margin-left: -15px;
+	background: linear-gradient(to top right, #0A0A07 50%, #FAFAFA 50%);
+	position: absolute;
+	box-shadow: 0 0px 0px black;
+}
+#none{
+	width: 1360px;
+	height: 324px;
+	margin-top: -135px;
+	margin-left: -14px;
+	background: linear-gradient(to top left, #FAFAFA 50%, #0A0A07 50%);
+	position: absolute;
+	box-shadow: 0 2px 20px black;
+}
+.h1{
+	font-family: 'Rubic One', sans-serif;
+}
+#begin{
+	text-align: center;
+	margin-top: 25px;
+}
+#bot_begin{
+	text-align: center;
+	margin-top: -20px;
+}
+.content{
+	width: 400px;
+	font-family: 'Rubic One', sans-serif;
+	font-size: 17.5px;
+	padding: 24px;	
+	position: absolute;
+}
+
+#one{
+	margin-left: 35px;
+	margin-top: 80px;
+}
+#two{
+	margin-left: 550px;
+	margin-top: 580px;
+}
+#three{
+	margin-left: 35px;
+}
+.white{
+	color: white;
+}
+
+
+
+#logo{
+	width: 700px;
+	margin-left: 680px;
+	margin-top: -140px;
+	position: absolute;
+}
+#original{
+	position: relative;
+	width: 200px;
+	top: -30px;
+}
+#iphones{
+	width: 450px;
+	margin-left: 900px;
+	margin-top: 150px;
+	position: absolute;
+}
+#hopest_two{
+	width: 1360px;
+	height: 600px;
+	margin-top: 790px;
+	margin-left: -15px;
+	background: linear-gradient(to top left, #FAFAFA 50%, #0A0A07 50%);;
+	position: absolute;
+	box-shadow: 0 0px 0px black;
+}
+#down{
+	position: relative;
+	width: 150px;
+	top: 260px;
+	left: 10px;
+}
+#hr{
+	position: relative;
+	top: 420px;
+	left: -580px;
+	width: 1345px;
+	height: 1px;
+	background: radial-gradient(circle, black, #FAFAFAFF);
+}
+.hopest_three{
+	width: 1360px;
+	height: 600px;
+	background: #FAFAFA;
+	position: absolute;
+	margin-left: -10px;
+	margin-top: 1530px;
+}
+.hopest_three span{
+	font-family: sans-serif;
+}
+.hopest_three ol li{
+	display: inline;
+}
+#usa{
+	position: absolute;
+	width: 150px;
+}
+#money{
+	position: relative;
+	left: 60px;
+	top: 20px;
+}
+#money li{
+	display: inline-block;
+	margin: 10px;
+	position: relative;
+}
+#money li img{
+	width: 200px;
+	position: relative;
+	left: 2.5px;
+	background-color: whie;
+	border-radius: 1px;
+}
+.product{
+	position: relative;
+	border-radius: 3px;
+	border-top: 3px solid black;
+	height: 450px;
+	width: 205px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.memory{
+	position: relative;
+	width: 164px;
+	background-color: black;
+	height: 40px;
+	padding: 7px;
+	left: 13px;
+	top: 20px;
+	border: 1px solid black;
+	border-radius: 3px;
+	text-align: center;
+}
+.memory .punkt{
+	position: relative;
+	margin: 7px;
+	color: white;
+	left: -4px;
+}
+#range{
+	width: 160px;
+	position: relative;
+}
+#buy{
+	position: relative;
+	left: 7px;
+	top: -5px;
+	height: 30px;
+	width: 190px;
+	cursor: pointer;
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: lighter;
+	border: none;
+	border-radius: 5px;
+	transition: 0.1s ease;
+}
+#buy:hover{
+	transform: scale(0.96);
+}
+.name{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+	position: relative;
+	left: 13px;
+	top: 8px;
+	height: 30px;
+	width: 180px;
+	background-color: black;
+	color: white;
+	padding: 8px 14px 8px 14px;
+	border-radius: 3px;
+}
+}
+#pre{
+	margin-right: 20px;
+}
+.color{
+	position: absolute;
+	margin-top: 320px;
+	top: 25px;
+	left: 13px;
+}
+.color input{
+	margin: 4px;
+	padding: 6px 8px 6px 8px;
+	background-color: black;
+	cursor: pointer;
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: lighter;
+	border: none;
+	border-radius: 5px;
+	transition: 0.3s ease;
+}
+.color input:hover{
+	transform: scale(0.9);
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+.color span{
+	color: white;
+	font-weight: lighter;
+}
+#test{
+	background-color: white;
+}
+footer{
+	position: relative;
+	background-color: #0A0A07;
+	width: 1360px;
+	height: 200px;
+	color: white;
+	text-align: center;
+	top: 2600px;
+	left: -8px;
+}
+footer span{
+	position: relative;
+	top: 10px;
+	font-size: 19px;
+}
